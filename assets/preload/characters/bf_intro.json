@@ -2,43 +2,54 @@
 	"animations": [
 		{
 			"offsets": [
-				37,
-				11
+				68,
+				113
 			],
 			"loop": false,
 			"fps": 24,
-			"anim": "firstDeath",
+			"anim": "1",
 			"indices": [],
-			"name": "BF dies"
+			"name": "BF 1"
 		},
 		{
 			"offsets": [
-				37,
-				5
-			],
-			"loop": true,
-			"fps": 24,
-			"anim": "deathLoop",
-			"indices": [],
-			"name": "BF Dead Loop"
-		},
-		{
-			"offsets": [
-				37,
-				69
+				68,
+				-15
 			],
 			"loop": false,
 			"fps": 24,
-			"anim": "deathConfirm",
+			"anim": "Go",
 			"indices": [],
-			"name": "BF Dead confirm"
+			"name": "BF Go"
+		},
+		{
+			"offsets": [
+				12,
+				83
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "3",
+			"indices": [],
+			"name": "BF 3"
+		},
+		{
+			"offsets": [
+				-1,
+				-2
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "2",
+			"indices": [],
+			"name": "BF 2"
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/BOYFRIEND_DEAD",
+	"image": "characters/BF_Intro",
 	"position": [
-		0,
-		350
+		68,
+		335
 	],
 	"healthicon": "bf",
 	"flip_x": true,

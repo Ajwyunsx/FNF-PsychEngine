@@ -1,0 +1,166 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-24,
+				6
+			],
+			"anim": "shootRIGHT",
+			"fps": 24,
+			"name": "Bf Shoot R",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				110,
+				10
+			],
+			"anim": "shootLEFT",
+			"fps": 24,
+			"name": "Bf Shoot L",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-27,
+				-15
+			],
+			"anim": "shootUP",
+			"fps": 24,
+			"name": "Bf Shoot U",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				3,
+				-112
+			],
+			"anim": "shootDOWN",
+			"fps": 24,
+			"name": "Bf Shoot D",
+			"indices": []
+		},
+		{
+			"offsets": [
+				78,
+				-134
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle sword0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				70,
+				123
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "block good0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				70,
+				123
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "block good0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				225,
+				101
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "block sick0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				225,
+				101
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "block sick0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-83,
+				129
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "block bad0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-83,
+				129
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "block bad0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-83,
+				129
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "block bad0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-83,
+				129
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "block bad0",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/BfSwordUp",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "bf",
+	"flip_x": true,
+	"healthbar_colors": [
+		49,
+		176,
+		209
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 2
+}
