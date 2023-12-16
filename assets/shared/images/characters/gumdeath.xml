@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="gumdeath.png" width="3542" height="3624">
+  <SubTexture name="death gumball0000.png" x="0" y="0"  width="415" height="263" frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0001.png" x="0" y="263"  width="415" height="263" frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0002.png" x="415" y="0" width="263" height="415" rotated="true"  frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0003.png" x="0" y="526"  width="415" height="263" frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0004.png" x="415" y="415"  width="415" height="263" frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0005.png" x="678" y="0" width="263" height="415" rotated="true"  frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0006.png" x="415" y="678"  width="415" height="263" frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0007.png" x="0" y="789"  width="415" height="263" frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0008.png" x="830" y="415" width="263" height="415" rotated="true"  frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0009.png" x="941" y="0" width="263" height="415" rotated="true"  frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0010.png" x="830" y="830" width="263" height="415" rotated="true"  frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0011.png" x="415" y="941"  width="415" height="263" frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0012.png" x="0" y="1052"  width="415" height="263" frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0013.png" x="1093" y="415" width="263" height="415" rotated="true"  frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0014.png" x="1204" y="0" width="263" height="415" rotated="true"  frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0015.png" x="1093" y="830" width="263" height="415" rotated="true"  frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0016.png" x="415" y="1204"  width="415" height="263" frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0017.png" x="0" y="1315"  width="415" height="263" frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0018.png" x="830" y="1245"  width="415" height="263" frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0019.png" x="1245" y="1245"  width="415" height="263" frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0020.png" x="1356" y="415" width="263" height="415" rotated="true"  frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0021.png" x="1467" y="0" width="263" height="415" rotated="true"  frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0022.png" x="1356" y="830" width="263" height="415" rotated="true"  frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0023.png" x="415" y="1467"  width="415" height="263" frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0024.png" x="0" y="1578"  width="415" height="263" frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0025.png" x="830" y="1508"  width="415" height="263" frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0026.png" x="1245" y="1508"  width="415" height="263" frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0027.png" x="1619" y="415" width="263" height="415" rotated="true"  frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0029.png" x="1730" y="0" width="263" height="415" rotated="true"  frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0031.png" x="1619" y="830" width="263" height="415" rotated="true"  frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0033.png" x="1660" y="1245" width="263" height="415" rotated="true"  frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0035.png" x="1660" y="1660" width="263" height="415" rotated="true"  frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0037.png" x="415" y="1730"  width="415" height="263" frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0038.png" x="0" y="1841"  width="415" height="263" frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0039.png" x="830" y="1771"  width="415" height="263" frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0040.png" x="1245" y="1771"  width="415" height="263" frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0041.png" x="1882" y="415" width="263" height="415" rotated="true"  frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0042.png" x="1993" y="0" width="263" height="415" rotated="true"  frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0043.png" x="1882" y="830" width="263" height="415" rotated="true"  frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0044.png" x="1923" y="1245" width="263" height="415" rotated="true"  frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0045.png" x="1923" y="1660" width="263" height="415" rotated="true"  frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0046.png" x="415" y="1993"  width="415" height="263" frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0047.png" x="0" y="2104"  width="415" height="263" frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0048.png" x="830" y="2034"  width="415" height="263" frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0049.png" x="1245" y="2034"  width="415" height="263" frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0050.png" x="1660" y="2075"  width="415" height="263" frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0051.png" x="2075" y="2075"  width="415" height="263" frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0052.png" x="2145" y="415" width="263" height="415" rotated="true"  frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0053.png" x="2256" y="0" width="263" height="415" rotated="true"  frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0054.png" x="2145" y="830" width="263" height="415" rotated="true"  frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0055.png" x="2186" y="1245" width="263" height="415" rotated="true"  frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0056.png" x="2186" y="1660" width="263" height="415" rotated="true"  frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0057.png" x="415" y="2256"  width="415" height="263" frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0058.png" x="0" y="2367"  width="415" height="263" frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0059.png" x="830" y="2297"  width="415" height="263" frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0060.png" x="1245" y="2297"  width="415" height="263" frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0061.png" x="1660" y="2338"  width="415" height="263" frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0062.png" x="2075" y="2338"  width="415" height="263" frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0063.png" x="2408" y="415" width="263" height="415" rotated="true"  frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0064.png" x="2519" y="0" width="263" height="415" rotated="true"  frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0065.png" x="2408" y="830" width="263" height="415" rotated="true"  frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0066.png" x="2449" y="1245" width="263" height="415" rotated="true"  frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0067.png" x="2449" y="1660" width="263" height="415" rotated="true"  frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0068.png" x="2490" y="2075" width="263" height="415" rotated="true"  frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0069.png" x="415" y="2519"  width="415" height="263" frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0070.png" x="0" y="2630"  width="415" height="263" frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0071.png" x="830" y="2560"  width="415" height="263" frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0072.png" x="1245" y="2560"  width="415" height="263" frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0073.png" x="1660" y="2601"  width="415" height="263" frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0074.png" x="2075" y="2601"  width="415" height="263" frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0075.png" x="2490" y="2490"  width="415" height="263" frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0076.png" x="2671" y="415" width="263" height="415" rotated="true"  frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0077.png" x="2782" y="0" width="263" height="415" rotated="true"  frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0078.png" x="2671" y="830" width="263" height="415" rotated="true"  frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0079.png" x="2712" y="1245" width="263" height="415" rotated="true"  frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0080.png" x="2712" y="1660" width="263" height="415" rotated="true"  frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0081.png" x="2753" y="2075" width="263" height="415" rotated="true"  frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0082.png" x="415" y="2782"  width="415" height="263" frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0083.png" x="0" y="2893"  width="415" height="263" frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0084.png" x="2490" y="2753"  width="415" height="263" frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0085.png" x="830" y="2823"  width="415" height="263" frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0086.png" x="1245" y="2823"  width="415" height="263" frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0087.png" x="1660" y="2864"  width="415" height="263" frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0088.png" x="2075" y="2864"  width="415" height="263" frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0089.png" x="2905" y="2490" width="263" height="415" rotated="true"  frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0091.png" x="2934" y="415" width="263" height="415" rotated="true"  frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0093.png" x="3045" y="0" width="263" height="415" rotated="true"  frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="retry loop0000.png" x="2905" y="2905"  width="301" height="240" frameX="-0" frameY="-0" frameWidth="301" frameHeight="240"/>
+  <SubTexture name="retry loop0001.png" x="2934" y="830"  width="301" height="240" frameX="-0" frameY="-0" frameWidth="301" frameHeight="240"/>
+  <SubTexture name="retry loop0002.png" x="2975" y="1070"  width="301" height="240" frameX="-0" frameY="-0" frameWidth="301" frameHeight="240"/>
+  <SubTexture name="retry loop0007.png" x="2975" y="1310"  width="301" height="240" frameX="-0" frameY="-0" frameWidth="301" frameHeight="240"/>
+  <SubTexture name="retry loop0008.png" x="2975" y="1550"  width="301" height="240" frameX="-0" frameY="-0" frameWidth="301" frameHeight="240"/>
+  <SubTexture name="retry0000.png" x="2975" y="1790"  width="301" height="234" frameX="-0" frameY="-0" frameWidth="301" frameHeight="234"/>
+  <SubTexture name="retry0002.png" x="3016" y="2024" width="234" height="301" rotated="true"  frameX="-0" frameY="-0" frameWidth="301" frameHeight="234"/>
+  <SubTexture name="retry0003.png" x="415" y="3045"  width="301" height="234" frameX="-0" frameY="-0" frameWidth="301" frameHeight="234"/>
+  <SubTexture name="retry0004.png" x="0" y="3156"  width="301" height="234" frameX="-0" frameY="-0" frameWidth="301" frameHeight="234"/>
+  <SubTexture name="retry0005.png" x="2490" y="3016"  width="301" height="234" frameX="-0" frameY="-0" frameWidth="301" frameHeight="234"/>
+  <SubTexture name="retry0006.png" x="2791" y="3145"  width="301" height="234" frameX="-0" frameY="-0" frameWidth="301" frameHeight="234"/>
+  <SubTexture name="retry0007.png" x="716" y="3086"  width="301" height="234" frameX="-0" frameY="-0" frameWidth="301" frameHeight="234"/>
+  <SubTexture name="retry0008.png" x="1017" y="3086"  width="301" height="234" frameX="-0" frameY="-0" frameWidth="301" frameHeight="234"/>
+  <SubTexture name="retry0009.png" x="1318" y="3086"  width="301" height="234" frameX="-0" frameY="-0" frameWidth="301" frameHeight="234"/>
+  <SubTexture name="retry0010.png" x="1619" y="3127"  width="301" height="234" frameX="-0" frameY="-0" frameWidth="301" frameHeight="234"/>
+  <SubTexture name="retry0012.png" x="1920" y="3127"  width="301" height="234" frameX="-0" frameY="-0" frameWidth="301" frameHeight="234"/>
+  <SubTexture name="retry0014.png" x="3092" y="3145"  width="301" height="234" frameX="-0" frameY="-0" frameWidth="301" frameHeight="234"/>
+  <SubTexture name="retry0015.png" x="3197" y="415"  width="301" height="234" frameX="-0" frameY="-0" frameWidth="301" frameHeight="234"/>
+  <SubTexture name="retry0016.png" x="3308" y="0" width="234" height="301" rotated="true"  frameX="-0" frameY="-0" frameWidth="301" frameHeight="234"/>
+  <SubTexture name="retry0017.png" x="3235" y="649"  width="301" height="234" frameX="-0" frameY="-0" frameWidth="301" frameHeight="234"/>
+  <SubTexture name="retry0018.png" x="3168" y="2325"  width="301" height="234" frameX="-0" frameY="-0" frameWidth="301" frameHeight="234"/>
+  <SubTexture name="retry0019.png" x="3250" y="2024" width="234" height="301" rotated="true"  frameX="-0" frameY="-0" frameWidth="301" frameHeight="234"/>
+  <SubTexture name="retry0020.png" x="3168" y="2559"  width="301" height="234" frameX="-0" frameY="-0" frameWidth="301" frameHeight="234"/>
+  <SubTexture name="retry0021.png" x="3206" y="2793"  width="301" height="234" frameX="-0" frameY="-0" frameWidth="301" frameHeight="234"/>
+  <SubTexture name="retry0022.png" x="3276" y="883" width="234" height="301" rotated="true"  frameX="-0" frameY="-0" frameWidth="301" frameHeight="234"/>
+  <SubTexture name="retry0024.png" x="3276" y="1184" width="234" height="301" rotated="true"  frameX="-0" frameY="-0" frameWidth="301" frameHeight="234"/>
+  <SubTexture name="retry0025.png" x="3276" y="1485" width="234" height="301" rotated="true"  frameX="-0" frameY="-0" frameWidth="301" frameHeight="234"/>
+  <SubTexture name="retry0027.png" x="2221" y="3127" width="234" height="301" rotated="true"  frameX="-0" frameY="-0" frameWidth="301" frameHeight="234"/>
+  <SubTexture name="retry0028.png" x="2455" y="3250"  width="301" height="234" frameX="-0" frameY="-0" frameWidth="301" frameHeight="234"/>
+  <SubTexture name="retry0030.png" x="301" y="3279"  width="301" height="234" frameX="-0" frameY="-0" frameWidth="301" frameHeight="234"/>
+  <SubTexture name="retry0031.png" x="0" y="3390"  width="301" height="234" frameX="-0" frameY="-0" frameWidth="301" frameHeight="234"/>
+  <SubTexture name="retry0032.png" x="2756" y="3379"  width="301" height="234" frameX="-0" frameY="-0" frameWidth="301" frameHeight="234"/>
+  <SubTexture name="retry0033.png" x="3057" y="3379"  width="301" height="234" frameX="-0" frameY="-0" frameWidth="301" frameHeight="234"/>
+  <SubTexture name="retry0034.png" x="602" y="3320"  width="301" height="234" frameX="-0" frameY="-0" frameWidth="301" frameHeight="234"/>
+  <SubTexture name="retry0039.png" x="903" y="3320"  width="301" height="234" frameX="-0" frameY="-0" frameWidth="301" frameHeight="234"/>
+  <SubTexture name="retry0041.png" x="1204" y="3320"  width="301" height="234" frameX="-0" frameY="-0" frameWidth="301" frameHeight="234"/>
+  <SubTexture name="retry0042.png" x="1505" y="3361"  width="301" height="234" frameX="-0" frameY="-0" frameWidth="301" frameHeight="234"/>
+  <SubTexture name="retry0043.png" x="1806" y="3361"  width="301" height="234" frameX="-0" frameY="-0" frameWidth="301" frameHeight="234"/>
+  <SubTexture name="death gumball0028.png" x="1619" y="415" width="263" height="415" rotated="true"  frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0030.png" x="1730" y="0" width="263" height="415" rotated="true"  frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0032.png" x="1619" y="830" width="263" height="415" rotated="true"  frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0034.png" x="1660" y="1245" width="263" height="415" rotated="true"  frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0036.png" x="1660" y="1660" width="263" height="415" rotated="true"  frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0090.png" x="2905" y="2490" width="263" height="415" rotated="true"  frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0092.png" x="2934" y="415" width="263" height="415" rotated="true"  frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="death gumball0094.png" x="3045" y="0" width="263" height="415" rotated="true"  frameX="-0" frameY="-0" frameWidth="415" frameHeight="263"/>
+  <SubTexture name="retry loop0003.png" x="2975" y="1070"  width="301" height="240" frameX="-0" frameY="-0" frameWidth="301" frameHeight="240"/>
+  <SubTexture name="retry loop0004.png" x="2975" y="1070"  width="301" height="240" frameX="-0" frameY="-0" frameWidth="301" frameHeight="240"/>
+  <SubTexture name="retry loop0005.png" x="2975" y="1070"  width="301" height="240" frameX="-0" frameY="-0" frameWidth="301" frameHeight="240"/>
+  <SubTexture name="retry loop0006.png" x="2975" y="1070"  width="301" height="240" frameX="-0" frameY="-0" frameWidth="301" frameHeight="240"/>
+  <SubTexture name="retry loop0009.png" x="2975" y="1070"  width="301" height="240" frameX="-0" frameY="-0" frameWidth="301" frameHeight="240"/>
+  <SubTexture name="retry loop0010.png" x="2975" y="1070"  width="301" height="240" frameX="-0" frameY="-0" frameWidth="301" frameHeight="240"/>
+  <SubTexture name="retry loop0011.png" x="2975" y="1070"  width="301" height="240" frameX="-0" frameY="-0" frameWidth="301" frameHeight="240"/>
+  <SubTexture name="retry loop0012.png" x="2975" y="1070"  width="301" height="240" frameX="-0" frameY="-0" frameWidth="301" frameHeight="240"/>
+  <SubTexture name="retry loop0013.png" x="2975" y="1070"  width="301" height="240" frameX="-0" frameY="-0" frameWidth="301" frameHeight="240"/>
+  <SubTexture name="retry0001.png" x="2975" y="1790"  width="301" height="234" frameX="-0" frameY="-0" frameWidth="301" frameHeight="234"/>
+  <SubTexture name="retry0011.png" x="1619" y="3127"  width="301" height="234" frameX="-0" frameY="-0" frameWidth="301" frameHeight="234"/>
+  <SubTexture name="retry0013.png" x="1920" y="3127"  width="301" height="234" frameX="-0" frameY="-0" frameWidth="301" frameHeight="234"/>
+  <SubTexture name="retry0023.png" x="3276" y="883" width="234" height="301" rotated="true"  frameX="-0" frameY="-0" frameWidth="301" frameHeight="234"/>
+  <SubTexture name="retry0026.png" x="3276" y="1485" width="234" height="301" rotated="true"  frameX="-0" frameY="-0" frameWidth="301" frameHeight="234"/>
+  <SubTexture name="retry0029.png" x="2455" y="3250"  width="301" height="234" frameX="-0" frameY="-0" frameWidth="301" frameHeight="234"/>
+  <SubTexture name="retry0035.png" x="602" y="3320"  width="301" height="234" frameX="-0" frameY="-0" frameWidth="301" frameHeight="234"/>
+  <SubTexture name="retry0036.png" x="602" y="3320"  width="301" height="234" frameX="-0" frameY="-0" frameWidth="301" frameHeight="234"/>
+  <SubTexture name="retry0037.png" x="602" y="3320"  width="301" height="234" frameX="-0" frameY="-0" frameWidth="301" frameHeight="234"/>
+  <SubTexture name="retry0038.png" x="602" y="3320"  width="301" height="234" frameX="-0" frameY="-0" frameWidth="301" frameHeight="234"/>
+  <SubTexture name="retry0040.png" x="903" y="3320"  width="301" height="234" frameX="-0" frameY="-0" frameWidth="301" frameHeight="234"/>
+</TextureAtlas>
