@@ -1348,7 +1348,6 @@ class PlayState extends MusicBeatState
 		}
 
 		var foldersToCheck:Array<String> = [Paths.getPreloadPath('shaders/')];
-		if(Paths.getPreloadPath != null && Paths.getPreloadPath.length > 0)
 			foldersToCheck.insert(0, Paths.getPreloadPath(Asset2File.getPath + '/shaders/'));
 
 		for(asset in Paths.getPreloadPath())
