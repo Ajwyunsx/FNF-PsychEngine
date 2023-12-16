@@ -1348,10 +1348,10 @@ class PlayState extends MusicBeatState
 		}
 
 		var foldersToCheck:Array<String> = [Paths.getPreloadPath('shaders/')];
-		if(OpenFlAssets.exists != null && OpenFlAssets.exists.length > 0)
+		if(Paths.getPreloadPath != null && Paths.getPreloadPath.length > 0)
 			foldersToCheck.insert(0, Paths.getPreloadPath(Asset2File.getPath + '/shaders/'));
 
-		for(asset in Paths.getPreloadPath())
+		for(asset in OpenFlAssets.exists())
 			foldersToCheck.insert(0, Asset2File.getPath(asset + '/shaders/'));
 		
 		for (folder in foldersToCheck)
