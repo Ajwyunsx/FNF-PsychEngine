@@ -69,7 +69,11 @@ import openfl.display.Shader;
 #end
 import openfl.filters.ShaderFilter;
 import Shaders;
-import flixel.system.FlxShader;
+import flixel.system.FlxAssets.FlxShader;
+import openfl.filters.ShaderFilter;
+import DynamicShaderHandler;
+import openfl.display.GraphicsShader;
+import flixel.graphics.tile.FlxGraphicsShader;
 import openfl.display.Shader;
 #if sys
 import sys.FileSystem;
