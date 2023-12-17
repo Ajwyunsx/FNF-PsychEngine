@@ -109,7 +109,7 @@ class Paths
 		}
 		// flags everything to be cleared out next unused memory clear
 		localTrackedAssets = [];
-		openfl.Assets.cache.clear("songs");
+		#if !html5 openfl.Assets.cache.clear("songs"); #end
 	}
 
 	static public var currentModDirectory:String = '';
@@ -192,7 +192,6 @@ class Paths
 	inline static public function modsShaderVertex(key:String, ?library:String)
 	{
 		return getPath('shaders/'+key+'.vert');
-	}
 	inline static public function lua(key:String, ?library:String)
 	{
 		return getPath('$key.lua', TEXT, library);
@@ -206,7 +205,7 @@ class Paths
 			return file;
 		}
 		#end
-		return SUtil.getPath() + 'assets/videos/$key.$VIDEO_EXT';
+		return 'assets/videos/$key.$VIDEO_EXT';
 	}
 
 	static public function sound(key:String, ?library:String):Sound
@@ -228,16 +227,24 @@ class Paths
 
 	inline static public function voices(song:String):Any
 	{
+		#if html5
+		return 'songs:assets/songs/${formatToSongPath(song)}/Voices.$SOUND_EXT';
+		#else
 		var songKey:String = '${formatToSongPath(song)}/Voices';
 		var voices = returnSound('songs', songKey);
 		return voices;
+		#end
 	}
 
 	inline static public function inst(song:String):Any
 	{
+		#if html5
+		return 'songs:assets/songs/${formatToSongPath(song)}/Inst.$SOUND_EXT';
+		#else
 		var songKey:String = '${formatToSongPath(song)}/Inst';
 		var inst = returnSound('songs', songKey);
 		return inst;
+		#end
 	}
 
 	inline static public function image(key:String, ?library:String):FlxGraphic
@@ -249,23 +256,25 @@ class Paths
 
 	static public function getTextFromFile(key:String, ?ignoreMods:Bool = false):String
 	{
+		#if sys
 		#if MODS_ALLOWED
 		if (!ignoreMods && FileSystem.exists(modFolders(key)))
 			return File.getContent(modFolders(key));
+		#end
 
-		if (FileSystem.exists(SUtil.getPath() + getPreloadPath(key)))
-			return File.getContent(SUtil.getPath() + getPreloadPath(key));
+		if (FileSystem.exists(getPreloadPath(key)))
+			return File.getContent(getPreloadPath(key));
 
 		if (currentLevel != null)
 		{
 			var levelPath:String = '';
 			if(currentLevel != 'shared') {
-				levelPath = SUtil.getPath() + getLibraryPathForce(key, currentLevel);
+				levelPath = getLibraryPathForce(key, currentLevel);
 				if (FileSystem.exists(levelPath))
 					return File.getContent(levelPath);
 			}
 
-			levelPath = SUtil.getPath() + getLibraryPathForce(key, 'shared');
+			levelPath = getLibraryPathForce(key, 'shared');
 			if (FileSystem.exists(levelPath))
 				return File.getContent(levelPath);
 		}
@@ -281,7 +290,7 @@ class Paths
 			return file;
 		}
 		#end
-		return SUtil.getPath() + 'assets/fonts/$key';
+		return 'assets/fonts/$key';
 	}
 
 	inline static public function fileExists(key:String, type:AssetType, ?ignoreMods:Bool = false, ?library:String)
@@ -382,7 +391,7 @@ class Paths
 		}
 		#end
 		// I hate this so god damn much
-		var gottenPath:String = SUtil.getPath() + getPath('$path/$key.$SOUND_EXT', SOUND, library);
+		var gottenPath:String = getPath('$path/$key.$SOUND_EXT', SOUND, library);
 		gottenPath = gottenPath.substring(gottenPath.indexOf(':') + 1, gottenPath.length);
 		// trace(gottenPath);
 		if(!currentTrackedSounds.exists(gottenPath))
@@ -402,7 +411,7 @@ class Paths
 
 	#if MODS_ALLOWED
 	inline static public function mods(key:String = '') {
-		return SUtil.getPath() + 'mods/' + key;
+		return 'mods/' + key;
 	}
 
 	inline static public function modsFont(key:String) {
@@ -461,7 +470,7 @@ class Paths
 				return fileToCheck;
 
 		}
-		return SUtil.getPath() + 'mods/' + key;
+		return 'mods/' + key;
 	}
 
 	public static var globalMods:Array<String> = [];
@@ -472,7 +481,7 @@ class Paths
 	static public function pushGlobalMods() // prob a better way to do this but idc
 	{
 		globalMods = [];
-		var path:String = SUtil.getPath() + 'modsList.txt';
+		var path:String = 'modsList.txt';
 		if(FileSystem.exists(path))
 		{
 			var list:Array<String> = CoolUtil.coolTextFile(path);
