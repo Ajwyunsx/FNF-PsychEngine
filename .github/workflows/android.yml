@@ -45,10 +45,11 @@ jobs:
           haxelib install hxcpp 4.2.1 > /dev/null --quiet
           haxelib install lime 7.9.0
           haxelib install openfl 9.1.0
-          haxelib install flixel 4.11.0
+          haxelib --never install flixel 4.11.0
+          haxelib run lime setup flixel
           haxelib install flixel-tools
           haxelib install flixel-ui
-          haxelib install flixel-addons 3.0.2
+          haxelib install flixel-addons 2.11.0
           haxelib git hxCodec https://github.com/SPLCoding/hxCodec-but-it-works-xd.git
           haxelib git linc_luajit https://github.com/Sirox228/linc_luajit
           haxelib install hscript
@@ -66,7 +67,7 @@ jobs:
           haxelib set openfl 9.1.0
           haxelib set lime 7.9.0
           haxelib set flixel 4.11.0
-          haxelib set flixel-addons 3.0.2
+          haxelib set flixel-addons 2.11.0
           haxelib set hxcpp 4.2.1
         env:
           ANDROID_NDK_HOME: ${{ steps.setup-ndk.outputs.ndk-path }}
