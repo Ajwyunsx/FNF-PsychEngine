@@ -280,6 +280,9 @@ class PlayState extends MusicBeatState
 	public var scoreTxt:FlxText;
 	var timeTxt:FlxText;
 	var scoreTxtTween:FlxTween;
+	
+	// shader
+	public var shaderUpdates:Array<Float->Void> = [];
 
 	public static var campaignScore:Int = 0;
 	public static var campaignMisses:Int = 0;
@@ -3247,6 +3250,19 @@ class PlayState extends MusicBeatState
 		setOnLuas('cameraY', camFollowPos.y);
 		setOnLuas('botPlay', cpuControlled);
 		callOnLuas('onUpdatePost', [elapsed]);
+		for (shader in animatedShaders)
+			{
+				shader.update(elapsed);
+			}
+		#if LUA_ALLOWED
+			for (key => value in luaShaders)
+			{
+				value.update(elapsed);
+			}
+		#end
+		for (i in shaderUpdates){
+			i(elapsed);
+			}
 	}
 
 	function openPauseMenu()
