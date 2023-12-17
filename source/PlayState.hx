@@ -70,6 +70,7 @@ import openfl.display.Shader;
 import openfl.filters.ShaderFilter;
 import Shaders;
 import flixel.system.FlxAssets.FlxShader;
+import flixel.system.FlxShader;
 import openfl.filters.ShaderFilter;
 import DynamicShaderHandler;
 import openfl.display.GraphicsShader;
