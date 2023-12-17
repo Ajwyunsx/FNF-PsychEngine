@@ -69,6 +69,7 @@ import openfl.display.Shader;
 #end
 import openfl.filters.ShaderFilter;
 import Shaders;
+import flixel.system.FlxShader;
 import openfl.display.Shader;
 #if sys
 import sys.FileSystem;
@@ -283,6 +284,8 @@ class PlayState extends MusicBeatState
 	
 	// shader
 	public var shaderUpdates:Array<Float->Void> = [];
+	public var luaShaders:Map<String, DynamicShaderHandler> = new Map<String, DynamicShaderHandler>();
+	public static var animatedShaders:Map<String, DynamicShaderHandler> = new Map<String, DynamicShaderHandler>();
 
 	public static var campaignScore:Int = 0;
 	public static var campaignMisses:Int = 0;

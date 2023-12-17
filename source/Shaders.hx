@@ -170,8 +170,6 @@ class GlitchyEffect extends Effect
 	public var shader:GlitchyShader;
   public function new(offset:Float = 0.00){
 	shader = new GlitchyShader();
-    shader.SPEED.value = [offc];
-    shader.AMT.value = [offc];
   }
 	
 	
