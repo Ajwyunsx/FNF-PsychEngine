@@ -64,8 +64,12 @@ import Conductor.Rating;
 #if !flash 
 import flixel.addons.display.FlxRuntimeShader;
 import openfl.filters.ShaderFilter;
+import Shaders;
+import openfl.display.Shader;
 #end
-
+import openfl.filters.ShaderFilter;
+import Shaders;
+import openfl.display.Shader;
 #if sys
 import sys.FileSystem;
 import sys.io.File;
@@ -874,7 +878,7 @@ class PlayState extends MusicBeatState
 
 		// "GLOBAL" SCRIPTS
 		#if LUA_ALLOWED
-		var daScripts:Array<String> = ['script', 'script1', 'script2', 'script3', 'script4', 'script5', 'script6', 'script7', 'script8', 'script9', 'script10', 'script11']; // I don't think I need to explain this 
+		var daScripts:Array<String> = ['script', 'script1', 'script2', 'script3', 'script4', 'script5', 'script6', 'script7', 'script8', 'script9', 'script10', 'script11', 'script12', 'script13', 'script14', 'script15', 'script16']; // I don't think I need to explain this 
 		for (script in daScripts) {
 			var scriptPath:String = Paths.getPreloadPath('scripts/' + script + '.lua');
 			if (OpenFlAssets.exists(scriptPath))
@@ -1183,7 +1187,7 @@ class PlayState extends MusicBeatState
 
 		// SONG SPECIFIC SCRIPTS
 		#if LUA_ALLOWED
-		var daScripts:Array<String> = ['script', 'script1', 'script2', 'script3', 'script4', 'script5', 'script6', 'script7', 'script8', 'script9', 'script10', 'script11']; // I don't think I need to explain this 
+		var daScripts:Array<String> = ['script', 'script1', 'script2', 'script3', 'script4', 'script5', 'script6', 'script7', 'script8', 'script9', 'script10', 'script11', 'script12', 'script13', 'script14', 'script15', 'script16']; // I don't think I need to explain this 
 		for (script in daScripts) {
 		var scriptPath:String = Paths.getPreloadPath('data/' + Paths.formatToSongPath(SONG.song) + '/' + script + '.lua');
 			if (OpenFlAssets.exists(scriptPath))
@@ -1347,27 +1351,28 @@ class PlayState extends MusicBeatState
 			return true;
 		}
 
-		var foldersToCheck:Array<String> = [Paths.getPreloadPath('shaders/')];
-			foldersToCheck.insert(0, Paths.getPreloadPath(Asset2File.getPath + '/shaders/'));
+		var foldersToCheck:Array<String> = [Paths.mods('shaders/')];
+		if(Paths.currentModDirectory != null && Paths.currentModDirectory.length > 0)
+			foldersToCheck.insert(0, Paths.mods(Paths.currentModDirectory + '/shaders/'));
 
-		for(asset in Paths.getPreloadPath())
-			foldersToCheck.insert(0, Asset2File.getPath(asset + '/shaders/'));
+		for(mod in Paths.getGlobalMods())
+			foldersToCheck.insert(0, Paths.mods(mod + '/shaders/'));
 		
 		for (folder in foldersToCheck)
 		{
-			if(OpenFlAssets.exists(folder))
+			if(FileSystem.exists(folder))
 			{
 				var frag:String = folder + name + '.frag';
 				var vert:String = folder + name + '.vert';
 				var found:Bool = false;
-				if(OpenFlAssets.exists(frag))
+				if(FileSystem.exists(frag))
 				{
 					frag = File.getContent(frag);
 					found = true;
 				}
 				else frag = null;
 
-				if (OpenFlAssets.exists(vert))
+				if (FileSystem.exists(vert))
 				{
 					vert = File.getContent(vert);
 					found = true;
@@ -2965,22 +2970,29 @@ class PlayState extends MusicBeatState
 		iconP2.updateHitbox();
 
 		var iconOffset:Int = 26;
+		var Glitchy:Shaders.GlitchyEffect = new Shaders.GlitchyEffect();
 
 		iconP1.x = healthBar.x + (healthBar.width * (FlxMath.remapToRange(healthBar.percent, 0, 100, 100, 0) * 0.01)) + (150 * iconP1.scale.x - 150) / 2 - iconOffset;
 		iconP2.x = healthBar.x + (healthBar.width * (FlxMath.remapToRange(healthBar.percent, 0, 100, 100, 0) * 0.01)) - (150 * iconP2.scale.x) / 2 - iconOffset * 2;
+		iconP1.shader = Glitchy;
+		iconP2.shader = Glitchy;
 
 		if (health > 2)
 			health = 2;
 
 		if (healthBar.percent < 20)
 			iconP1.animation.curAnim.curFrame = 1;
+			shader.setGlitchy(0.25, 0.2);
 		else
 			iconP1.animation.curAnim.curFrame = 0;
+			shader.setGlitchy(0.1, 0.1);
 
 		if (healthBar.percent > 80)
 			iconP2.animation.curAnim.curFrame = 1;
+			shader.setGlitchy(0.2, 0.15);
 		else
 			iconP2.animation.curAnim.curFrame = 0;
+			shader.setGlitchy(0.0, 0.0);
 
 		if (FlxG.keys.anyJustPressed(debugKeysCharacter) && !endingSong && !inCutscene) {
 			persistentUpdate = false;
